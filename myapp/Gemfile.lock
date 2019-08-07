@@ -64,6 +64,7 @@ GEM
     erubi (1.8.0)
     execjs (2.7.0)
     ffi (1.11.1)
+    ffi (1.11.1-x64-mingw32)
     formatador (0.2.5)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
@@ -111,6 +112,8 @@ GEM
     nenv (0.3.0)
     nio4r (2.4.0)
     nokogiri (1.10.3)
+      mini_portile2 (~> 2.4.0)
+    nokogiri (1.10.3-x64-mingw32)
       mini_portile2 (~> 2.4.0)
     notiffany (0.1.3)
       nenv (~> 0.1)
@@ -191,6 +194,8 @@ GEM
     turbolinks-source (5.2.0)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
+    tzinfo-data (1.2019.2)
+      tzinfo (>= 1.0.0)
     uglifier (3.2.0)
       execjs (>= 0.3.0, < 3)
     web-console (3.5.1)
@@ -205,6 +210,7 @@ GEM
 
 PLATFORMS
   ruby
+  x64-mingw32
 
 DEPENDENCIES
   bcrypt (= 3.1.11)
