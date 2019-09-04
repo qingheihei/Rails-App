@@ -1,0 +1,9 @@
+
+x = ['5万', '6万', '7万', '18万', '9万', '10万', '11万']
+y = [1,5,7,3,4,10, 8]
+
+indices = np.arange(len(x))
+plt.xticks(indices, x, rotation='vertical')
+plt.bar(indices,y,color='b')
+plt.tight_layout()
+plt.show()
