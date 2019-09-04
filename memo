@@ -7,3 +7,10 @@ plt.xticks(indices, x, rotation='vertical')
 plt.bar(indices,y,color='b')
 plt.tight_layout()
 plt.show()
+
+
+sorted_list = sorted(lll, key=lambda x:x['value'], reverse=True)
+l = int(len(sorted_list)*0.8//1)
+list2 = sorted_list[:l]
+result = list(map(lambda x: x['ID'], list2))
+
