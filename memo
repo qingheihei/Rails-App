@@ -14,3 +14,18 @@ l = int(len(sorted_list)*0.8//1)
 list2 = sorted_list[:l]
 result = list(map(lambda x: x['ID'], list2))
 
+python3でword2vecのtrainで新規単語を登録【推しのベクトルを求めたい】
+https://qiita.com/al_tarte/items/d1e3137e0e3b22ab4aa7
+
+DataFrame的apply方法
+https://blog.csdn.net/Evan_Blog/article/details/82787984
+https://www.jianshu.com/p/5f11ba3227d4
+
+高速化
+http://www.sohu.com/a/316279635_505915
+
+
+
+ll = [('0~3万円', 3), ('10万円以上', 63), ('3万円~5万円', 172), ('5万円~6万円', 207), ('6万円~7万円', 237), ('7万円~8万円', 201), ('8万円~9万円', 87), ('9万円~10万円', 30)]
+
+sorted(ll, key=lambda x:x[0][:2])
